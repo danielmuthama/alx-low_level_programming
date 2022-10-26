@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp/ https://raw.github.com/EnnyTee2/alx-low_level_programming/master/0x18-dynamic_libraries/nrandom.so
-export LD_PRELOAD=/tmp/nrandom.so
+wget -q -O /tmp/librandy1.so https://github.com/danielmuthama/BatchScripts/raw/master/librandy1.so
+  export LD_PRELOAD=/tmp/librandy1.so
